@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title id="about">Akira Valentini Porfolio</title>
+	<link rel="stylesheet" href="style.css">
+	
+	<!--- font and swiper --->	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	
+</head>
+
+<body>
+	
+	<!-- About -->
+	
+	<section id="topp" class="header">
+	<header>
+		<nav class="navbar">
+			<a  href="#" class="nav-branding">Valentini Akira</a>
+			<ul class="nav-menu">
+				<li class="nav-item"><a href="#topp" class="nav-link">About me</a> <li>
+				<li class="nav-item"><a href="#middle" class="nav-link">Drawings</a> <li>
+				<li class="nav-item"><a href="#ani" class="nav-link">Animation</a> <li>
+				<li class="nav-item"><a href="#Contacts" class="nav-link">Contact</a> <li>
+			</ul>
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</nav>
+	</header>
+	<div class="text-box">
+    <h1 > About me.<h1>
+    <p>Hi! my name is Akira and im passionate about Anime so i made my own.</p>
+	<a class= "link" target= "_blank" href= "https://www.youtube.com/watch?v=XDR-c2CLDes" >watch here ></a>
+</section>
+	
+<!-- Parte2 -->
+<section id="middle" class="works">
+  <h1>Drawing</h1>
+  <h3>sketches and practice drawings</h3>
+	<div class="container">
+		<!-- Slider main container -->
+		<div class="swiper">
+		  <!-- Additional required wrapper -->
+			  <div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide"><img src="images/page1.png"></div>
+				<div class="swiper-slide"><img src="images/page2.png"></div>
+				<div class="swiper-slide"><img src="images/page3.png"></div>
+				<div class="swiper-slide"><img src="images/page4.png"></div>
+				<div class="swiper-slide"><img src="images/page5.png"></div>
+				<div class="swiper-slide"><img src="images/page6.png"></div>
+				<div class="swiper-slide"><img src="images/page7.png"></div>
+				<div class="swiper-slide"><img src="images/page8.png"></div>
+				<div class="swiper-slide"><img src="images/page9.png"></div>
+				<div class="swiper-slide"><img src="images/page10.png"></div>
+				<div class="swiper-slide"><img src="images/page11.png"></div>
+				<div class="swiper-slide"><img src="images/page12.png"></div>
+				...
+			  </div>
+				  <!-- If we need pagination -->
+				  <div class="swiper-pagination"></div>
+
+				  <!-- If we need navigation buttons -->
+				  <div class="swiper-button-prev"></div>
+				  <div class="swiper-button-next"></div>
+		</div>
+	</div>
+	
+</section>
+	  
+<!-- animation -->
+	  <section id="ani" class="animation">
+		 	<h1 class="white1">Animation</h1> 
+		  	<h3 class="white2" >Practice animation and personal projects</h3>
+			<video width="1080" controls><source src="images/video.mp4" ty pe="video/mp4"></video>
+	  </section>
+	  
+	  
+<!-- Footer -->
+	  <selction id="Contacts" class="footer">
+		  <h4>Contacts <h4>
+			  <h2>valentiniakirapr@gmail.com</h2>
+				<h2> Twitter: @valentini_akira</h2>
+			  <br>
+			 	<h2 class="f1"> Copyright &copy; 2022 Valentini Akira </h2>
+			  
+        		
+				  
+		</selctions>
+			  
+<!-- JS script -->
+			  <script type="text/javascript" src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script>  
+		const swiper = new Swiper('.swiper', {
+		  autoplay: {
+			delay: 4000,
+			disableOnInteraction: false,
+			},
+		  loop: true,
+
+		  pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		  },
+
+		  navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
+
+		});
+	</script>	
+</body>
+</html>
